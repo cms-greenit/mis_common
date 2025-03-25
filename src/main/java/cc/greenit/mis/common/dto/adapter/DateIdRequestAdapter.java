@@ -5,4 +5,5 @@ public interface DateIdRequestAdapter {
     String getDateIdLike();
     String getDateIdBetweenFrom();
     String getDateIdBetweenTo();
+
 }
