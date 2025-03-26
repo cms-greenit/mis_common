@@ -1,6 +1,6 @@
-package cc.greenit.mis.common.dto.adapter;
+package cc.greenit.mis.common.adapter;
 
-public interface DateIdRequestAdapter {
+public interface Date {
     String getDateId();
     String getDateIdLike();
     String getDateIdBetweenFrom();
