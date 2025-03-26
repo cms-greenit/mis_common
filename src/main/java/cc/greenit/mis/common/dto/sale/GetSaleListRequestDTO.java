@@ -1,6 +1,5 @@
-package cc.greenit.mis.common.dto.booking;
+package cc.greenit.mis.common.dto.sale;
 
-import cc.greenit.mis.common.adapter.Agency;
 import cc.greenit.mis.common.adapter.Company;
 import cc.greenit.mis.common.adapter.Date;
 import cc.greenit.mis.common.adapter.GOE;
@@ -10,10 +9,9 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
 @Data
-public class GetTeeTimeListRequestDTO implements Company, Agency, Date, GOE {
+public class GetSaleListRequestDTO implements Company, Date, GOE {
     @NotEmpty
     private String companyId;
-    private String agencyCode;
     @Size(min = 8, max = 8)
     private String dateId;
     @Size(min = 4, max = 8)

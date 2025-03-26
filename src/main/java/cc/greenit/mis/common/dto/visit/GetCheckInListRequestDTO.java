@@ -1,5 +1,8 @@
 package cc.greenit.mis.common.dto.visit;
 
+import cc.greenit.mis.common.adapter.Company;
+import cc.greenit.mis.common.adapter.Date;
+import cc.greenit.mis.common.adapter.GOE;
 import lombok.Data;
 
 import javax.validation.constraints.NotEmpty;
@@ -7,15 +10,8 @@ import javax.validation.constraints.Size;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * packageName    : cc.greenit.cms.domain.visit.dto
- * fileName       : GetCheckInRequestDTO
- * author         : zaid
- * date           : 2023/04/18
- * description    : 체크인 조회 Request
- */
 @Data
-public class GetCheckInRequestDTO {
+public class GetCheckInListRequestDTO implements Company, Date, GOE {
     @NotEmpty
     private String companyId;
     @Size(min = 8, max = 8)
@@ -36,7 +32,7 @@ public class GetCheckInRequestDTO {
     private String checkinId;
     private List<String> checkInIdList = new ArrayList<>();
 
-    public GetCheckInRequestDTO(String companyId, String checkinId) {
+    public GetCheckInListRequestDTO(String companyId, String checkinId) {
         this.companyId = companyId;
         this.checkinId = checkinId;
     }

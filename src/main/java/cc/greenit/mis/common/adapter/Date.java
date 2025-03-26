@@ -1,6 +1,10 @@
 package cc.greenit.mis.common.adapter;
 
-public interface Date {
+import javax.validation.constraints.Size;
+
+public interface Date
+{
+
     String getDateId();
     String getDateIdLike();
     String getDateIdBetweenFrom();
