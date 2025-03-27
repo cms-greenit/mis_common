@@ -10,7 +10,9 @@ public class GetRentalListResponseDTO implements TeeTime {
     private String timeId;
     private String erpCheckInId;
     private String shopId;
+    private String shopName;
     private String itemCode;
+    private String itemName;
     private Integer itemPrice;
     private String itemCount;
     private String itemTotalAmount;

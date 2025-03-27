@@ -10,10 +10,12 @@ public class GetSaleListResponseDTO {
     private String courseId;
     private String timeId;
     private String erpCheckInId;
+    private Integer shopId;
     private String shopName;
     private Integer saleId;
     private Integer saleSeq;
     private String itemCode;
+    private String itemName;
     private Integer itemCount;
     private Integer itemPrice;
     private Integer saleSupplyAmount;
