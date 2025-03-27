@@ -9,17 +9,7 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
 @Data
-public class GetMemberRequestDTO implements Company, Date, GOE {
+public class GetMemberRequestDTO implements Company {
     @NotEmpty
     private String companyId;
-    @Size(min = 8, max = 8)
-    private String dateId;
-    @Size(min = 4, max = 8)
-    private String dateIdLike;
-    @Size(min = 8, max = 8)
-    private String dateIdBetweenFrom;
-    @Size(min = 8, max = 8)
-    private String dateIdBetweenTo;
-    @Size(min = 14, max = 14)
-    private String datetimeGoe;
 }

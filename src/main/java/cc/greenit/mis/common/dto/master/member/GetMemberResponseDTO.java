@@ -4,7 +4,6 @@ import lombok.Data;
 
 @Data
 public class GetMemberResponseDTO {
-    private String companyId;
     private String erpMemberUkNo;
     private String memberName;
     private String memberAddress;
