@@ -4,21 +4,17 @@ import lombok.Data;
 
 @Data
 public class GetCheckInListResponseDTO {
-    private String companyId;
     private String dateId;
     private String courseId;
     private String timeId;
     private String erpCheckinId;
     private String erpCheckinName;
     private String erpCheckinGender;
-    private String erpCheckinQrcode;
-    private String erpCheckinPhone;
+    private String memberUkNo;
+    private String memberNo;
     private String status;
-    private String locker;
-    private String bagName;
-    private String cartNo;
-    private String caddyNo;
-    private String caddyName;
+    private Integer hole;
+    private String caddyYn;
     private Integer totalAmount;
     private Integer greenAmount;
     private Integer cartAmount;
@@ -29,8 +25,4 @@ public class GetCheckInListResponseDTO {
     private Integer sportsTax;
     private Integer agriculturalTax;
     private Integer otherTax;
-    private Integer hole;
-    private String memberUkNo;
-    private String memberNo;
-    private String caddyYn;
 }
