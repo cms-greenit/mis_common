@@ -12,7 +12,7 @@ public class GetCheckInListResponseDTO {
     private String erpCheckInGender;
     private String memberUkNo;
     private String memberNo;
-    private String status;
+    private String checkInStatus;
     private Integer hole;
     private String caddyYn;
     private Integer totalAmount;
