@@ -29,11 +29,11 @@ public class GetCheckInListRequestDTO implements Company, Date, GOE {
     @Size(min = 14, max = 14)
     private String datetimeGoe;
     private String qrcode;
-    private String checkinId;
+    private String checkInId;
     private List<String> checkInIdList = new ArrayList<>();
 
-    public GetCheckInListRequestDTO(String companyId, String checkinId) {
+    public GetCheckInListRequestDTO(String companyId, String checkInId) {
         this.companyId = companyId;
-        this.checkinId = checkinId;
+        this.checkInId = checkInId;
     }
 }
