@@ -15,6 +15,7 @@ public class GetSaleListResponseDTO {
     private Integer saleId;
     private Integer saleSeq;
     private String itemCode;
+    private String itemCategory;
     private String itemName;
     private Integer itemCount;
     private Integer itemPrice;
