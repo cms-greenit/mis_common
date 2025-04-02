@@ -9,6 +9,8 @@ public class GetMemberResponseDTO {
     private String memberAddress;
     private String memberAddressDetail;
     private String memberGender;
+    private String memberGrade;
+    private String memberPrepaidYn;
     private String memberAge;
     private String isDeletedYn;
 }
