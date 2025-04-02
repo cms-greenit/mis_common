@@ -12,4 +12,6 @@ import javax.validation.constraints.Size;
 public class GetMemberRequestDTO implements Company {
     @NotEmpty
     private String companyId;
+    @Size(min = 14, max = 14)
+    private String datetimeGoe;
 }
