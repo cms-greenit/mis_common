@@ -28,4 +28,5 @@ public class GetCheckInListResponseDTO {
     private Integer sportsTax;
     private Integer agriculturalTax;
     private Integer otherTax;
+    private Integer checkInDateTime;
 }
