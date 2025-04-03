@@ -2,6 +2,8 @@ package cc.greenit.mis.common.dto.visit;
 
 import lombok.Data;
 
+import java.time.LocalDateTime;
+
 @Data
 public class GetCheckInListResponseDTO {
     private String dateId;
@@ -28,5 +30,5 @@ public class GetCheckInListResponseDTO {
     private Integer sportsTax;
     private Integer agriculturalTax;
     private Integer otherTax;
-    private Integer checkInDateTime;
+    private LocalDateTime checkInDateTime;
 }
