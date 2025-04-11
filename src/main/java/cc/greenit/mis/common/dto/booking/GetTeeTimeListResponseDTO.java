@@ -32,4 +32,5 @@ public class GetTeeTimeListResponseDTO {
     private String erpAssigneeName = null;
     private String erpAssigneePhone = null;
     private String teamName;
+    private String groupType;
 }
