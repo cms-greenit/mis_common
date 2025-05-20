@@ -10,4 +10,6 @@ public class GetCalendarResponseDTO {
     private String monthWeek;
     private String yearWeek;
     private String totalWeek;
+    private String bookingOpenStartDate;
+    private String bookingOpenEndDate;
 }
