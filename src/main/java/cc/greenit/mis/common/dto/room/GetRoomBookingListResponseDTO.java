@@ -20,5 +20,7 @@ public class GetRoomBookingListResponseDTO {
     private String roomChargeAmount;
     private String checkInDate;
     private String checkOutDate;
-    private String reservedAt;
+    private String bookingAt;
+    private String bookingSource;
+    private String isPackageYn;
 }
