@@ -17,5 +17,4 @@ public class GetRoomDailyStatusResponseDTO {
     private Integer occupiedCount;
     private Integer checkInCount;
     private Integer checkOutCount;
-    private String isPackageYn;
 }

@@ -23,4 +23,5 @@ public class GetRoomVisitListResponseDTO {
     private String checkOutYn;
     private String remark;
     private String mainYn;
+    private String isPackageYn;
 }
