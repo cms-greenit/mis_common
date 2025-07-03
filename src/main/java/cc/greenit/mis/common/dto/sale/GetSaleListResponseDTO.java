@@ -6,6 +6,7 @@ import java.math.BigDecimal;
 
 @Data
 public class GetSaleListResponseDTO {
+    private String saleType;
     private String dateId;
     private String courseId;
     private String timeId;
