@@ -10,6 +10,8 @@ public class GetRoomSaleListResponseDTO {
     private String sequenceNumber;
     private String dateId;
     private String shopId;
+    private String shopName;
+    private String itemCount;
     private String roomNumber;
     private String supplyAmount;
     private String totalAmount;
