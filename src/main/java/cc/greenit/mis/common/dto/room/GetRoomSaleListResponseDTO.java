@@ -6,13 +6,13 @@ import lombok.Data;
 public class GetRoomSaleListResponseDTO {
     private String companyId;
     private String bookingId;
-    private String checkInSequence;
-    private String sequenceNumber;
+    private Integer bookingSequence;
+    private Integer checkInSequence;
     private String dateId;
     private String shopId;
     private String shopName;
-    private String itemCount;
+    private Integer itemCount;
     private String roomNumber;
-    private String supplyAmount;
-    private String totalAmount;
+    private Integer supplyAmount;
+    private Integer totalAmount;
 }
