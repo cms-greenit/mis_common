@@ -11,10 +11,10 @@ public class GetRoomDailyStatusResponseDTO {
     private Integer totalCount;
     private Integer blockCount;
     private Integer faultCount;
-    private Integer usedCount;
-    private Integer bookingCount;
-    private Integer vacantCount;
+    private Integer availableCount;
     private Integer occupiedCount;
+    private Integer vacantCount;
+    private Integer stayOverCount;
     private Integer checkInCount;
     private Integer checkOutCount;
 }
