@@ -11,6 +11,7 @@ public class GetSaleListResponseDTO {
     private String courseId;
     private String timeId;
     private String erpCheckInId;
+    private Integer erpCheckInSequence;
     private Integer shopId;
     private String shopName;
     private Integer saleId;
