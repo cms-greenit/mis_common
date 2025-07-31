@@ -6,8 +6,8 @@ import lombok.Data;
 public class GetRoomSaleListResponseDTO {
     private String companyId;
     private String bookingId;
-    private Integer bookingSequence;
     private Integer checkInSequence;
+    private Integer saleSequence;
     private String dateId;
     private String shopId;
     private String shopName;
