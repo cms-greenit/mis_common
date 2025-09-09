@@ -12,7 +12,7 @@ public class GetSaleListResponseDTO {
     private String timeId;
     private String erpCheckInId;
     private Integer erpCheckInSequence;
-    private Integer shopId;
+    private String shopId;
     private String shopName;
     private Integer saleId;
     private Integer saleSeq;
