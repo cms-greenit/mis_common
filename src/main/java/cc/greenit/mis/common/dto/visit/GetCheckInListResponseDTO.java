@@ -9,6 +9,7 @@ public class GetCheckInListResponseDTO {
     private String dateId;
     private String courseId;
     private String timeId;
+    private String erpRsvNo;
     private String erpCheckInId;
     private String erpCheckInName;
     private String erpCheckInGender;
