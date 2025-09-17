@@ -26,6 +26,7 @@ public class GetTeeTimeListResponseDTO {
     private String isErpEmptyYn;
     private String isErpRainOutYn;
     private String isSelfCartYn;
+    private String isGalleyYn;
     private String isAffiliatedGroupYn;
     // HOMEPAGE, TEL, GOLAGA, OTHER
     private String erpAgencyType;

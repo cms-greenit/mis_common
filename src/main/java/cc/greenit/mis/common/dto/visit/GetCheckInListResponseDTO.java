@@ -18,6 +18,7 @@ public class GetCheckInListResponseDTO {
     private String checkInStatus;
     private Integer hole;
     private String caddyYn;
+    private String galleyYn;
     private Integer totalAmount;
     private Integer greenAmount;
     private Integer cartAmount;
