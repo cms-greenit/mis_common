@@ -25,4 +25,5 @@ public class GetSaleListResponseDTO {
     private Integer saleSupplyAmount;
     private Integer saleVatAmount;
     private Integer saleTotalAmount;
+    private String isGalleyYn;
 }
