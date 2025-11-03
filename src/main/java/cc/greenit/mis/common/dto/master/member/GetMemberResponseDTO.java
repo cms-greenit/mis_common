@@ -6,6 +6,7 @@ import lombok.Data;
 public class GetMemberResponseDTO {
     private String erpMemberUkNo;
     private String memberName;
+    private String country;
     private String memberAddress;
     private String memberAddressDetail;
     private String memberGender;
