@@ -13,5 +13,6 @@ public class GetMemberResponseDTO {
     private String memberGrade;
     private String memberPrepaidYn;
     private String memberAge;
+    private String memberBirthDay;
     private String isDeletedYn;
 }
