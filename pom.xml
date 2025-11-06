@@ -41,8 +41,8 @@
 
 	<distributionManagement>
 		<snapshotRepository>
-			<id>admin</id>
-			<url>http://43.202.168.4:8081/repository/maven-snapshots/</url>
+			<id>cms</id>
+			<url>https://nexus.greenit.cc/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
