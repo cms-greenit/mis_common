@@ -23,6 +23,7 @@ public class GetSaleListResponseDTO {
     private Integer itemCount;
     private Integer itemPrice;
     private Integer saleSupplyAmount;
+    private Integer saleNetAmount;
     private Integer saleVatAmount;
     private Integer saleTotalAmount;
     private String isGalleyYn;
