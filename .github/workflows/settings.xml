@@ -6,7 +6,7 @@
   <!-- ✅  여기에 계정 정보 -->
   <servers>
     <server>
-      <id>admin</id>
+      <id>cms</id>
       <username>${env.NEXUS_USERNAME}</username>
       <password>${env.NEXUS_PASSWORD}</password>
     </server>
@@ -19,7 +19,7 @@
       <repositories>
         <repository>
           <id>nexus-snapshots</id>
-          <url>http://43.202.168.4:8081/repository/maven-snapshots/</url>
+          <url>https://nexus.greenit.cc/repository/maven-snapshots/</url>
           <releases><enabled>false</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </repository>
@@ -27,7 +27,7 @@
       <pluginRepositories>
         <pluginRepository>
           <id>nexus-snapshots</id>
-          <url>http://43.202.168.4:8081/repository/maven-snapshots/</url>
+          <url>https://nexus.greenit.cc/repository/maven-snapshots/</url>
           <releases><enabled>false</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </pluginRepository>
