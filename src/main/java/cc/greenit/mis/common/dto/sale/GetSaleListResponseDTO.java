@@ -15,7 +15,7 @@ public class GetSaleListResponseDTO {
     private Integer erpCheckInSequence;
     private String shopId;
     private String shopName;
-    private Integer saleId;
+    private String saleId;
     private Integer saleSeq;
     private String itemCode;
     private String itemCategory;
