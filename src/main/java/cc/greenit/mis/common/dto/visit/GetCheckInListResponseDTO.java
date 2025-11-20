@@ -6,6 +6,7 @@ import java.time.LocalDateTime;
 
 @Data
 public class GetCheckInListResponseDTO {
+    private String businessType;
     private String dateId;
     private String courseId;
     private String timeId;
