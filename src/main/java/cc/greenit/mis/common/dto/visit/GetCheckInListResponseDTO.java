@@ -24,6 +24,11 @@ public class GetCheckInListResponseDTO {
     private Integer cartAmount;
     private Integer rentAmount;
     private Integer caddyAmount;
+    private Integer totalNetAmount;
+    private Integer greenNetAmount;
+    private Integer cartNetAmount;
+    private Integer rentNetAmount;
+    private Integer caddyNetAmount;
     private Integer greenCost;
     private Integer cartCost;
     private Integer rentCost;
