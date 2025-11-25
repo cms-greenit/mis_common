@@ -17,6 +17,7 @@ public class GetRentalListResponseDTO implements TeeTime {
     private Integer itemPrice;
     private String itemCount;
     private String itemTotalAmount;
+    private String itemTotalNetAmount;
     private String itemTotalSupplyAmount;
     private String itemTotalVatAmount;
 }
