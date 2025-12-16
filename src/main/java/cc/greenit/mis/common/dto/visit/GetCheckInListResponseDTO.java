@@ -29,9 +29,16 @@ public class GetCheckInListResponseDTO {
     private Integer cartNetAmount;
     private Integer rentNetAmount;
     private Integer caddyNetAmount;
+    private Integer totalNetCost;
+    private Integer greenNetCost;
+    private Integer cartNetCost;
+    private Integer rentNetCost;
+    private Integer caddyNetCost;
+    private Integer totalCost;
     private Integer greenCost;
     private Integer cartCost;
     private Integer rentCost;
+    private Integer caddyCost;
     private Integer specialTax;
     private Integer educationTax;
     private Integer sportsTax;
