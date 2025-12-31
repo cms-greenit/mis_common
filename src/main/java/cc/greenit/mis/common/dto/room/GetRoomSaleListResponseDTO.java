@@ -14,5 +14,8 @@ public class GetRoomSaleListResponseDTO {
     private Integer itemCount;
     private String roomNumber;
     private Integer supplyAmount;
+    private Integer vatAmount;
     private Integer totalAmount;
+    private Integer netAmount;
+    private Integer netSupplyAmount;
 }
